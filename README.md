@@ -7,12 +7,13 @@
 // then use it in hackerrank according to the comments in the following code
 window.onkeydown = function (event) {
 
-    // hit alt to run code
+    // hit 'alt' to run code
     if (event.keyCode === 18) {
+        // (clicking the run button)
         document.getElementsByClassName("hr-monaco-compile")[0].click();
     }
 
-    // hit altGr to submit code
+    // hit 'altGr' to submit code
     // and if confirmation was received of successful submission, 
     // hit it again to jump to next-challenge-in-order
     if (event.keyCode === 225) {
@@ -20,8 +21,10 @@ window.onkeydown = function (event) {
         let el = document.getElementsByClassName("challenge-link")[0]
 
         if (el != undefined) {
+            // (clicking the next challenge button)
             el.click()
         } else {
+            // (clicking the submit button)
             document.getElementsByClassName("hr-monaco-submit")[0].click();
         }
     }
