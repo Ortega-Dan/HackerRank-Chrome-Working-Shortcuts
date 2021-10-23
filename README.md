@@ -1,6 +1,7 @@
 # HackerRank-Chrome-Working-Shortcuts
 
 ```javascript
+
 // just paste all this script in chrome console (read it and understand it first) 
 // and hit enter, then close the console
 // then use it in hackerrank according to the comments in the following code
@@ -25,4 +26,5 @@ window.onkeydown = function (event) {
         }
     }
 }
+
 ```
